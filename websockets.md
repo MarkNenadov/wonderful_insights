@@ -1,6 +1,6 @@
-== Websockets ==
+=== Websockets ===
 
--- Serving Up WSS to Resin/Tomcat app server Using Apache's SSL Cert --
+--- Serving Up WSS to Resin/Tomcat app server Using Apache's SSL Cert ---
 
 Basically, this allows you to share the SSL certificate between your WSS functionality and the rest of your websites, ie. avoiding having to serve the websockets on a different port or a different subdomain.
 
@@ -8,6 +8,6 @@ Basically, this allows you to share the SSL certificate between your WSS functio
 2. Use mod_proxy ProxyPass directives to forward requests from Apache to app server
 3. Note: I recommend using Tomcat for this instead of Resin. Had issues with Resin due to shoddy websocket implementation.
 
--- Proxying Websocket Requests --
+--- Proxying Websocket Requests ---
 
 If, for whatever reason you want to proxy websocket requests, check out this project: https://github.com/MarkNenadov/websocket_proxpy .. No guarantees, but it is a simple implementation of that.
