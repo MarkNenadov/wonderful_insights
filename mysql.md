@@ -9,4 +9,5 @@ Full Backup to SQL File
 Contents of $HOME/my.cnf:
 
 `[client]
+
 password=yeahright`
