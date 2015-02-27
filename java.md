@@ -1,4 +1,4 @@
-Java 8 Insights
+Java Insights
 =================
 
 Java 8
@@ -16,6 +16,7 @@ Important Libraries
 * Heavy duty ORM http://hibernate.org/
 * Lightweight ORM http://ormlite.com/
 * PDF http://itextpdf.com	
+* Simple Websocket Client/Server http://java-websocket.org/
 * JSON (simple parser) http://argo.sourceforge.net/
 * JSON (schema validator) https://github.com/fge/json-schema-validator
 * Logging http://logging.apache.org/log4j/2.x/
