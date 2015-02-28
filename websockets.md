@@ -15,6 +15,11 @@ Proxying Websocket Requests
 
 If, for whatever reason you want to proxy websocket requests, check out this project: https://github.com/MarkNenadov/websocket_proxpy .. No guarantees, but it is a simple implementation of that.
 
+Make your javascript websocket code auto reconnect
+--------------------------------------------------
+
+* https://github.com/joewalnes/reconnecting-websocket
+
 Turn stdin/stdout programs into Websocket servers
 -------------------------------------------------
 
