@@ -8,3 +8,15 @@ Important libraries
 * PDF: (ReportLab) https://bitbucket.org/rptlab/reportlab
 * Websockets: pip install websockets
 * pyyaml: pip install pyyaml
+
+Setting up barebones use case tests
+-----------------------------------
+
+```
+class InvoiceTests(unittest.TestCase):
+  def setUp(self):
+        pass
+
+  def test_something(self):
+        self.assertFalse(...)
+```
