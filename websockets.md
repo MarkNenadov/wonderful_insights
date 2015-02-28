@@ -14,3 +14,8 @@ Proxying Websocket Requests
 ---------------------------
 
 If, for whatever reason you want to proxy websocket requests, check out this project: https://github.com/MarkNenadov/websocket_proxpy .. No guarantees, but it is a simple implementation of that.
+
+Turn stdin/stdout programs into Websocket servers
+-------------------------------------------------
+
+* http://websocketd.com/
