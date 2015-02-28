@@ -17,13 +17,13 @@ pg_restore
 ----------
 
 * Make it faster: http://www.databasesoup.com/2014/09/settings-for-fast-pgrestore.html
+* Don't expect it to be fast, though!
 
 Replication
 -----------
-U
 * Only three settings changes on a master will mess up the setup. They are max_connections, max_prepared_transactions, max_locks_per_transaction. I recommend keeping max_connections high enough on the slaves so that you are unlikely to need to adjust it if the master is increased by a reasonable amount.
 
-Installing Connection Pooling With pgbouncer
+Installing pgbouncer for Connection Pooling
 ---------------------------------
 1.	apt-get install libevent-dev
 2.	wget  http://pgfoundry.org/frs/download.php/3393/pgbouncer-1.5.4.tar.gz 
