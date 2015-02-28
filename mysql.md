@@ -8,6 +8,10 @@ Full Backup to SQL File
 
 Contents of $HOME/my.cnf:
 
-`[client]`
+```[client]
+password=yeahright```
 
-`password=yeahright`
+Tools
+-----
+
+* Management: http://www.heidisql.com/

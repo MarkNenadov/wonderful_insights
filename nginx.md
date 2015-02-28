@@ -4,7 +4,7 @@ nginx
 Sample Statically Hosted Virtual Host Config
 --------------------------------------------
 
-    server {
+```    server {
         listen       80;
         server_name  nhl.com www.nhl.com;
         access_log  logs/nhl.access.log;
@@ -15,12 +15,12 @@ Sample Statically Hosted Virtual Host Config
         }
 
         error_page   500 502 503 504  /50x.html;
-    }
+    }```
 
 Sample Virtual Host Passed Over To Apache
 -----------------------------------------
 
-server {
+```server {
         listen       80;
         server_name  mywordpresssite.com www.mywordpresssite.com;
         access_log  logs/mywordpresssite.access.log;
@@ -35,4 +35,4 @@ server {
         location = /50x.html {
             root   html;
         }
-    }
+    }```

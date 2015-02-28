@@ -6,13 +6,6 @@ Postgres Insights
 
 * Has awesome json support (json queries don't work with old versions of hibernate, though)
 
-Use psql without passwords
---------------------------
-
-Put .pgpass file in users home folder in this format:
-
-'hostname:port:database:username:password'
-
 pg_restore
 ----------
 
@@ -20,7 +13,7 @@ pg_restore
 
 Replication
 -----------
-U
+
 * Only three settings changes on a master will mess up the setup. They are max_connections, max_prepared_transactions, max_locks_per_transaction. I recommend keeping max_connections high enough on the slaves so that you are unlikely to need to adjust it if the master is increased by a reasonable amount.
 
 Installing Connection Pooling With pgbouncer
@@ -38,3 +31,4 @@ Installing Connection Pooling With pgbouncer
 11.	chown postgres.postgres /var/log/pgbouncer
 12.	chown postgres.postgres /var/run/pgbouncer
 13.	cp /usr/local/share/doc/pgbouncer/* /etc/pgbouncer/
+
