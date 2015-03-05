@@ -23,6 +23,8 @@ Replication
 -----------
 * Only three settings changes on a master will mess up the setup. They are max_connections, max_prepared_transactions, max_locks_per_transaction. I recommend keeping max_connections high enough on the slaves so that you are unlikely to need to adjust it if the master is increased by a reasonable amount.
 
+* Stop postgres on the master, trigger promotion on the slave based on settings in recovery.conf (ie: touch /tmp/trigger), restart postgres on the slave
+
 Installing pgbouncer for Connection Pooling
 ---------------------------------
 1.	apt-get install libevent-dev
