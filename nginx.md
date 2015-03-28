@@ -4,7 +4,7 @@ nginx
 Sample Statically Hosted Virtual Host Config
 --------------------------------------------
 
-```    server {
+```server {
         listen       80;
         server_name  nhl.com www.nhl.com;
         access_log  logs/nhl.access.log;
