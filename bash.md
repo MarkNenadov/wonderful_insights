@@ -1,13 +1,6 @@
 Bash insights
 =============
 
-Running a command remotely via ssh
-----------------------------------
-
-```
-/usr/bin/ssh -t bob@192.168.1.5 -p 22 "/usr/local/bin/runthis"
-```
-
 Functions
 ---------
 
@@ -25,6 +18,14 @@ function1;
 function2 "param1" "param2";
 ```
 
+
+Running a command remotely via ssh
+----------------------------------
+
+```
+/usr/bin/ssh -t bob@192.168.1.5 -p 22 "/usr/local/bin/runthis"
+```
+
 Delay (seconds )
 ----------------
 
@@ -40,7 +41,21 @@ Check for existence of a file
 
 ```
 
+Pipe a file to email
+--------------------
+```
+cat /home/joe/test | mail -s "subject" bob@megaglobalcorp.com
+```
+
 Time a process
 --------------
 
 `time /usr/bin/slow`
+
+Date Operations
+---------------
+
+```
+date +'%Y-%m-%d'  # get date as string
+date --date="$DATE_STRING" +%s  # parse date froms tring
+```
