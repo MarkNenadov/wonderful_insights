@@ -6,10 +6,44 @@ Java 8
 
 * Lambdas, streams, and a way of dealing of dates makes the upgrade worth it
 
-Important Libraries
--------------------
+Websockets With Spring
+----------------------
 
+* How to creator your WebSocketConfigurer:
+
+```
+@Configuration
+@EnableWebSocket
+@ComponentScan( "com.borderconnect.acidirectconnect.websocket" )
+public class WebSocketConfiguration implements WebSocketConfigurer {
+       public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
+                registry.addHandler( ... ).setAllowedOrigins( * );
+       }
+}
+```
+
+* How to set your buffer size in Tomcat (put this in your WebSocketConfigurer:
+
+```
+    @Bean
+    public ServletServerContainerFactoryBean createWebSocketContainer() {
+        ServletServerContainerFactoryBean container = new ServletServerContainerFactoryBean();
+
+        container.setMaxTextMessageBufferSize( WEBSOCKET_MAXIMUM_BUFFER_SIZE );
+        container.setMaxBinaryMessageBufferSize( WEBSOCKET_MAXIMUM_BUFFER_SIZE );
+
+        return container;
+    }
+```
+
+Toolkit
+-------
+
+* IntelliJ IDEA https://www.jetbrains.com/idea/
+* Apache Maven https://maven.apache.org/
+* Apache Tomcat
 * Spring Framework http://projects.spring.io/spring-framework/
+* Spring Boot https://projects.spring.io/spring-boot/
 * Web Scrapping http://jsoup.org
 * Unit Testing http://junit.org/
 * Templating http://freemarker.org/
@@ -23,3 +57,4 @@ Important Libraries
 * Markdown Processing http://code.google.com/p/markdown4j/
 * Postgres JDBC https://jdbc.postgresql.org/
 * Cron Scheduling http://quartz-scheduler.org/
+* Apache Ant http://ant.apache.org/
