@@ -53,6 +53,7 @@ Toolkit
 * Simple Websocket Client/Server http://java-websocket.org/
 * JSON (simple parser) http://argo.sourceforge.net/
 * JSON (schema validator) https://github.com/fge/json-schema-validator
+* DSL for synchronizing asynchronous operations https://github.com/awaitility/awaitility
 * Logging http://logging.apache.org/log4j/2.x/
 * Markdown Processing http://code.google.com/p/markdown4j/
 * Postgres JDBC https://jdbc.postgresql.org/
