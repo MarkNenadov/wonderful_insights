@@ -16,3 +16,8 @@ Dumping MQ Config to a file
 ---------------------------
 
 ```dmpmqcfg > config.mqsc```
+
+Resources
+---------
+
+* MQ Docker Image: https://github.com/ibm-messaging/mq-docker
