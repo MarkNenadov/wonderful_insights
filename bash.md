@@ -59,3 +59,8 @@ Date Operations
 date +'%Y-%m-%d'  # get date as string
 date --date="$DATE_STRING" +%s  # parse date froms tring
 ```
+
+Include another shell script (in the same folder--no matter where execution happens)
+------------------------------------------------------------------------------------
+
+source "$(dirname $(readlink -f $0))/include.sh"
