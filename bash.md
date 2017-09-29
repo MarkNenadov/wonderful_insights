@@ -60,7 +60,15 @@ date +'%Y-%m-%d'  # get date as string
 date --date="$DATE_STRING" +%s  # parse date froms tring
 ```
 
-Include another shell script (in the same folder--no matter where execution happens)
+Include another shell script (in the same folder--regardless of where execution happens)
 ------------------------------------------------------------------------------------
-
+```
 source "$(dirname $(readlink -f $0))/include.sh"
+```
+
+Make new lines work in echo
+---------------------------
+
+```
+shopt -s xpg_echo
+```
