@@ -36,6 +36,11 @@ public class WebSocketConfiguration implements WebSocketConfigurer {
     }
 ```
 
+JSoup
+-----
+
+See java-jsoup.md
+
 Toolkit
 -------
 
