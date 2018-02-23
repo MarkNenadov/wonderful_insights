@@ -6,7 +6,13 @@ Old Version of WebSocket4Net (C# Library) Won't Connect To Tomcat 8.5.x
 
 This has to do with old versions of WebSocket4Net requiring a reason phrase (which is optional in specs). This issue was fixed in WebSocket4Net 0.15.0-beta8 (so this fix is necessary only if you are stuck with supporting people who can't upgrade).
 
-Fix: Add sendReasonPhrase="true" to your Connector tag in conf/server.xml (it appears this approach will be deprecated in Tomcat 9.x)fs
+Fix is to add:
+
+```
+sendReasonPhrase="true"
+```
+
+to your Connector tag in conf/server.xml (it appears this approach will be deprecated in Tomcat 9.x).
 
 Installing APR library for Tomcat 8.0.14/
 -----------------------------------------
