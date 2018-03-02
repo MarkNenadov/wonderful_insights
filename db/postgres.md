@@ -23,7 +23,16 @@ Replication
 -----------
 * Only three settings changes on a master will mess up the setup. They are max_connections, max_prepared_transactions, max_locks_per_transaction. I recommend keeping max_connections high enough on the slaves so that you are unlikely to need to adjust it if the master is increased by a reasonable amount.
 
-* Stop postgres on the master, trigger promotion on the slave based on settings in recovery.conf (ie: touch /tmp/trigger), restart postgres on the slave
+* To stop postgres on the master, trigger promotion on the slave based on settings in recovery.conf (ie: touch /tmp/trigger), restart postgres on the slave
+
+* Getting replaction status on the master: SELECT state||' ('||sync_state||')' FROM pg_stat_replication (you are looking for "streaming(async)")
+
+Initializing a new Database on the Command Line
+-----------------------------------------------
+
+```
+	/somewhere/postgresql-9.6.0/bin/initdb -D /somewhere/postgresql-9.6.0/data --pwprompt -A password --locale=en_CA.UTF-8;
+```
 
 Installing pgbouncer for Connection Pooling
 ---------------------------------
