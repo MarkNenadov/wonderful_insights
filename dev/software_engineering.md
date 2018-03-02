@@ -15,4 +15,4 @@ Links
 Books
 -----
 
-* [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin|https://www.goodreads.com/book/show/3735293-clean-code]
+* Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin (https://www.goodreads.com/book/show/3735293-clean-code)
