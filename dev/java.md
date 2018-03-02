@@ -1,10 +1,15 @@
 Java Insights
 =================
 
-Java 8
-------
+JUnit
+-----
 
-* Lambdas, streams, and a way of dealing of dates makes the upgrade worth it
+Annotation to make a TestCase class run methods by sorted by name:
+
+```
+@FixMethodOrder( MethodSorters.NAME_ASCENDING )
+
+```
 
 Websockets With Spring
 ----------------------
