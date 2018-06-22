@@ -1,6 +1,21 @@
 Postgres Insights
 =================
 
+10.4 - Basic Ubuntu Compile
+---------------------------
+
+```
+apt-get install wget gcc make libreadline7 libreadline6-dev zlib zlib1g-dev
+wget https://ftp.postgresql.org/pub/source/v10.4/postgresql-10.4.tar.gz
+tar xzf postgresql-10.4.tar.gz
+cd postgresql-10.4.tar.gz
+./configure prefix=/opt/postgresql-10.4/
+make
+make instlal
+
+```
+
+
 9.4.x
 ---
 
