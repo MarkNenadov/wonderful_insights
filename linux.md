@@ -34,6 +34,11 @@ And yet, `ifquery eth0` seems to work.
 
 My solution has been to run ifdown --force .. After that, the "interface.. not configured" error should go away. The --force updates the funky state the interface is in.
 
+logrotate
+---------
+
+* Some services (such as a Spring boot with an executable jar) are not readibly reloadable (without interupting service) and will continue writing to a log which has been rotated out. For those, you can use the "copytruncate" option in your logrotate.d file.
+
 Using ZFS
 ---------
 
