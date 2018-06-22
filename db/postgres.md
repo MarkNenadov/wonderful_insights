@@ -42,6 +42,8 @@ Replication
 
 * Getting replaction status on the master: SELECT state||' ('||sync_state||')' FROM pg_stat_replication (you are looking for "streaming(async)")
 
+* Some urls for promoting a slave to master: https://gist.github.com/bartek/4502412 , https://help.theatremanager.com/book/export/html/3679 , https://www.postgresql.org/docs/9.1/static/warm-standby-failover.html
+
 Initializing a new Database on the Command Line
 -----------------------------------------------
 
