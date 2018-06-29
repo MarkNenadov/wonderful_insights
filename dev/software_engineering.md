@@ -4,7 +4,7 @@ Software Engineering Insights
 Aphorisms/Mantras/etc.
 ----------------------
 
-* Each time you make a change to code, leave it cleaner than you found it (paraphrase of insight from Beautiful Code)
+* Each time you change code, leave it cleaner than you found it (also known as the Boy Scout Rule--from Clean Code)
 
 Links
 -----
