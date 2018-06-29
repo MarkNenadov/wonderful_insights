@@ -30,3 +30,8 @@ Snapshots
 Other
 * Destroy pool: zpool destroy mypool
 * Check health of all pools: zpool status -x
+
+Installing Multiple PHP Versions on Ubuntu
+==========================================
+
+* The directions in this link work well: https://www.tecmint.com/install-different-php-versions-in-ubuntu/amp/
