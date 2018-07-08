@@ -1,8 +1,21 @@
 Apache insights
 =============
 
-Using proxy pass with Web Sockets (in apache2.conf)
+Using proxy pass with Web Sockets 
 ----------------------------------------------------
+
+Run these commands to enable the required modules:
+
+```
+a2enmod ssl;
+a2enmod proxy;
+a2enmod proxy_wstunnel;
+a2enmod authz_groupfile;
+/etc/init.d/apache2 restart;
+```
+
+Put this into your config:
+
 ```
 ProxyPreserveHost on
 

@@ -3,6 +3,16 @@ General Linux Insights
 
 Unless otherwise mentioned, I assume Ubuntu as the distribution
 
+For Laptops, turn off the lid close hibernate
+---------------------------------------------
+
+Edit /etc/systemd/logind.conf:
+
+```
+HandleLidSwitch=ignore
+```
+
+
 List Installed Packages
 -----------------------
 
@@ -35,3 +45,10 @@ Installing Multiple PHP Versions on Ubuntu
 ------------------------------------------
 
 * The directions in this link work well: https://www.tecmint.com/install-different-php-versions-in-ubuntu/amp/
+
+Get JDK
+-------
+
+```
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u172-b11/a58eab1ec242421181065cdc37240b08/jdk-8u172-linux-x64.tar.gz;
+```
