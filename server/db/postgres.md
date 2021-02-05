@@ -1,6 +1,11 @@
 Postgres Insights
 =================
 
+Config Generation
+-----------------
+
+https://pgtune.leopard.in.ua/#/
+
 10.4 - Basic Ubuntu Compile
 ---------------------------
 
@@ -11,7 +16,7 @@ tar xzf postgresql-10.4.tar.gz
 cd postgresql-10.4.tar.gz
 ./configure prefix=/opt/postgresql-10.4/
 make
-make instlal
+make install
 
 ```
 
