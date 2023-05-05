@@ -39,7 +39,13 @@ Snapshots
 
 Other
 * Destroy pool: zpool destroy mypool
+* Import pool: "zpool import" to see list then "zpool import xyz".
 * Check health of all pools: zpool status -x
+
+Links
+* Move Ubuntu Root to ZFS: https://github.com/zfsonlinux/pkg-zfs/wiki/HOWTO-install-Ubuntu-16.04-to-a-Native-ZFS-Root-Filesystem
+* Helpful info: https://docs.oracle.com/cd/E23824_01/html/821-1448/gaynp.html
+
 
 Installing Multiple PHP Versions on Ubuntu
 ------------------------------------------
@@ -51,4 +57,3 @@ Get JDK
 
 ```
 wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u172-b11/a58eab1ec242421181065cdc37240b08/jdk-8u172-linux-x64.tar.gz;
-```
