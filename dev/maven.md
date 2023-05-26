@@ -5,7 +5,7 @@ Find potential updates
 ----------------------
 
 ```
-versions:display-dependency-update
+versions:display-dependency-updates
 ```
 
 Build fat JAR (with dependencies included)
