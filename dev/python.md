@@ -1,6 +1,11 @@
 Python Insights
 =================
 
+IDE
+---
+
+* Love (PyCharm by JetBrains)[https://www.jetbrains.com/pycharm/]
+
 Important libraries
 -------------------
 
