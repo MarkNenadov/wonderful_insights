@@ -11,6 +11,10 @@ React
 
 * React is lovely, use it. Use it with TypeScript
 
+Next.js
+=======
+
+* [Install Tailwind in Next.js](https://tailwindcss.com/docs/guides/nextjs)
 
 RedwoodJS
 ----------
