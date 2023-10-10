@@ -21,11 +21,6 @@ make install
 ```
 
 
-9.4.x
----
-
-* Has awesome json support (json queries don't work with old versions of hibernate, though)
-
 Use psql without passwords
 --------------------------
 
@@ -37,7 +32,6 @@ pg_restore
 ----------
 
 * Make it faster: http://www.databasesoup.com/2014/09/settings-for-fast-pgrestore.html
-* Don't expect it to be fast, though!
 
 Replication
 -----------
