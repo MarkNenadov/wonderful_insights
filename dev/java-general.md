@@ -65,6 +65,11 @@ Toolkit
 * JSON (schema validator) https://github.com/fge/json-schema-validator
 * DSL for synchronizing asynchronous operations https://github.com/awaitility/awaitility
 * Logging http://logging.apache.org/log4j/2.x/
+
+Books
+-----
+
+* Java 8 in Action (Manning) by Raoul-Gabriel Umma (dated but a classic on the new stuff in Java 8--important stuff to grasp as Java marches on)
 * Markdown Processing http://code.google.com/p/markdown4j/
 * Postgres JDBC https://jdbc.postgresql.org/
 * Cron Scheduling http://quartz-scheduler.org/
