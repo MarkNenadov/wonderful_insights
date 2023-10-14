@@ -1,6 +1,12 @@
 Apache insights
 =============
 
+Conditionals
+------------
+
+Note: The conditionals introduced in Apache config in 2.4 can't have proxy pass directives in them, unfortunately.
+
+
 Using proxy pass with Web Sockets 
 ----------------------------------------------------
 
