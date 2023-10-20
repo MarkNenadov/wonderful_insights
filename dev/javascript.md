@@ -11,8 +11,14 @@ React
 
 * React is lovely, use it. Use it with TypeScript
 
+pnpm
+----
+
+* Installation: https://pnpm.io/installation
+
+
 Next.js
-=======
+-------
 
 * [Install Tailwind in Next.js](https://tailwindcss.com/docs/guides/nextjs)
 
