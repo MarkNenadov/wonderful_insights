@@ -11,6 +11,10 @@ Getting Started with Android Studio
 
 https://kotlinlang.org/docs/tutorials/kotlin-android.html
 
+Tools
+=====
+
+* kslint (also intellij plugin) https://pinterest.github.io/ktlint/latest/
 
 Books
 =====
