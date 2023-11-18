@@ -1,6 +1,14 @@
 IntelliJ
 =========
 
+Turn off Non-Modal Commit Window
+--------------------------------
+
+* Go to Settings
+* Version Control
+* Commit
+* Uncheck "Use non-modal commit interface"
+
 Recommended Plugins
 -------------------
 
