@@ -14,7 +14,7 @@ https://kotlinlang.org/docs/tutorials/kotlin-android.html
 Tools
 =====
 
-* kslint (also intellij plugin) https://pinterest.github.io/ktlint/latest/
+* ktlint (also intellij plugin) https://pinterest.github.io/ktlint/latest/. To get maximum benefit from this IntelliJ plugin, in the ktlint IntelliJ settings page, be sure to check off "Run klint --format on save"
 
 Books
 =====
