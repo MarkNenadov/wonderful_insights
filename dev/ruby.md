@@ -18,3 +18,8 @@ Books
 
 * [Comprehensive Ruby Programming]([https://www.goodreads.com/book/show/41968682-the-joy-of-kotlin?from_search=true&from_srp=true&qid=5TLufxlWCk&rank=8) (Packt) by Jordan Hudgens
 * [The Well-Grounded Rubyist](https://www.goodreads.com/book/show/58355109-the-well-grounded-rubyist) (Manning) by Joe Leo
+
+Fun
+===
+
+* [Ruby "Gems"](https://rubygems.substack.com/)
