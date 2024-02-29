@@ -9,7 +9,7 @@ mkdir my-temporal
 cd my-temporal
 python3 -m venv env
 source env/bin/activate
-python -m pip install temporalio
+python3 -m pip install temporalio
 ```
 
 Setup Up Temporal Cluster
