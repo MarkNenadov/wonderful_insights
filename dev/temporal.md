@@ -42,3 +42,16 @@ It defaults to an in-memory database, if you want a disk database, do this:
 ```
 temporal server start-dev --db-filename your_temporal.db
 ```
+
+Run The Samples
+---------------
+
+```
+pip3 install poetry
+
+git clone https://github.com/temporalio/samples-python.git
+cd samples-python
+
+poetry install
+poetry run python hello/hello_activity.py
+```
