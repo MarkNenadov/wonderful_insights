@@ -30,3 +30,15 @@ temporal server start-dev
 ```
 
 Verify it is listening to http://localhost:8233
+
+You can change the port
+
+```
+temporal server start-dev --ui-port 8080
+```
+
+It defaults to an in-memory database, if you want a disk database, do this:
+
+```
+temporal server start-dev --db-filename your_temporal.db
+```
