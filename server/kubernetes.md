@@ -11,6 +11,12 @@ Examine a Pod
 
 ```kubectl get pod my-pod```
 
+Note: To get more details, you can pass --output custom-columns=xyz, for instance:
+
+```
+kubectl get pod my-pod --output custom-columns=NODE_IP:status.hostIP,POD_IP:status.podIP
+```
+
 Run a Pod
 ---------
 
