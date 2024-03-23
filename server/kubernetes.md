@@ -4,7 +4,12 @@ Kubernetes insights
 Check Your Cluster
 -----------------
 
-```kubectl get notes```
+```kubectl get pods```
+
+Examine a Pod
+-------------
+
+```kubectl get pod my-od```
 
 Run a Pod
 ---------
