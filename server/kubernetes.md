@@ -9,7 +9,7 @@ Check Your Cluster
 Examine a Pod
 -------------
 
-```kubectl get pod my-od```
+```kubectl get pod my-pod```
 
 Run a Pod
 ---------
