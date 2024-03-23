@@ -17,6 +17,12 @@ Note: To get more details, you can pass --output custom-columns=xyz, for instanc
 kubectl get pod my-pod --output custom-columns=NODE_IP:status.hostIP,POD_IP:status.podIP
 ```
 
+You can also specify custom columns via a JSONPath
+
+```
+kubectl get pod hello-kiamol -o jsonpath='{.status.containerStatuses[0].containerID}'
+```
+
 Run a Pod
 ---------
 
