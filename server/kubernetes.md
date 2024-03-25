@@ -45,4 +45,4 @@ kubectl port-forward pod/hello-kiamol 9090:80
 Books
 =====
 
-* (Learn Kubernetes in a Month of Lunches)[https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches]
+* [Learn Kubernetes in a Month of Lunches](https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches)
