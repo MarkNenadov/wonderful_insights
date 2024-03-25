@@ -46,7 +46,7 @@ Create Deployment
 -----------------
 
 ```
-kubectl create deployment my-pod
+kubectl create deployment my-pod-2 --image=my-pod
 ```
 
 Books
