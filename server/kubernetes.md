@@ -41,3 +41,8 @@ Listen to port 9090 on local machine and forward it to 80 within the pod:
 ```
 kubectl port-forward pod/hello-kiamol 9090:80
 ```
+
+Books
+=====
+
+* (Learn Kubernetes in a Month of Lunches)[https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches]
