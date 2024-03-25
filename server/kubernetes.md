@@ -49,6 +49,20 @@ Create Deployment
 kubectl create deployment my-pod-2 --image=my-pod
 ```
 
+Labels
+======
+
+Show labels for the deploy:
+
+```
+kubectl get deploy my-pod-2 -o jsonpath='{.spec.template.metadata.labels}'
+```
+
+List pods by label:
+
+```
+kubectl get pods -l app=my-pod-2
+```
 Books
 =====
 
