@@ -32,3 +32,12 @@ kubectl wait --for=condition=Ready pod my-pod
 kubectl describe pod my-pod
 
 ```
+
+Redirect Port
+=============
+
+Listen to port 9090 on local machine and forward it to 80 within the pod:
+
+```
+kubectl port-forward pod/hello-kiamol 9090:80
+```
