@@ -58,11 +58,19 @@ Show labels for the deploy:
 kubectl get deploy my-pod-2 -o jsonpath='{.spec.template.metadata.labels}'
 ```
 
-List pods by label:
+List pods for a particular label:
 
 ```
 kubectl get pods -l app=my-pod-2
 ```
+
+List pods with their labels printed:
+
+```
+kubectl get pods -o custom-columns=NAME:metadata.name,LABELS:metadata.labels
+```
+
+
 Books
 =====
 
