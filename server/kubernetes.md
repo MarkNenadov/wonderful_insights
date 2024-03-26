@@ -34,7 +34,7 @@ kubectl describe pod my-pod
 ```
 
 Redirect Port
-=============
+-------------
 
 Listen to port 9090 on local machine and forward it to 80 within the pod:
 
@@ -50,7 +50,7 @@ kubectl create deployment my-pod-2 --image=my-pod
 ```
 
 Labels
-======
+------
 
 Show labels for the deploy:
 
@@ -72,6 +72,6 @@ kubectl get pods -o custom-columns=NAME:metadata.name,LABELS:metadata.labels
 
 
 Books
-=====
+-----
 
 * [Learn Kubernetes in a Month of Lunches](https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches)
