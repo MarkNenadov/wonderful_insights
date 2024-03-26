@@ -70,6 +70,11 @@ List pods with their labels printed:
 kubectl get pods -o custom-columns=NAME:metadata.name,LABELS:metadata.labels
 ```
 
+Update a label
+
+```
+kubectl label pods -l app=my-pod-2 --overwrite app=my-pod-x
+```
 
 Books
 -----
