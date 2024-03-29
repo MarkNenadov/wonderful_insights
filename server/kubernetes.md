@@ -76,6 +76,21 @@ Update a label
 kubectl label pods -l app=my-pod-2 --overwrite app=my-pod-x
 ```
 
+Apply a Manifest
+----------------
+
+Local file
+
+```
+kubectl apply -f my-pod.yaml 
+```
+
+Via a Url
+
+```
+kubectl apply -f https://my-pod.at.mydomain.com/my-pod.yaml
+```
+
 Books
 -----
 
