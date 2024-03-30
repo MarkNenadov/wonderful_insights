@@ -97,6 +97,29 @@ Get To Shell
 kubectl exec -it my-pod -- sh
 ```
 
+Copy Files
+----------
+
+```
+kubectl cp my-pod:/src/folder/on/pod /file/on/my/filesystem
+```
+
+Delete All Pods
+---------------
+
+Note: This will not remove podst which were created by Deployments.
+
+```
+kubectl delete pods --all
+```
+
+Delete All Deployments
+----------------------
+
+```
+kubectl delete deploy --all
+````
+
 Apply a Manifest
 ----------------
 
