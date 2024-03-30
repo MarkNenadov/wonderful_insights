@@ -76,6 +76,27 @@ Update a label
 kubectl label pods -l app=my-pod-2 --overwrite app=my-pod-x
 ```
 
+Get Pod Logs
+------------
+
+```
+kubectl logs --tail=2 my-pod
+```
+
+Get Pod Ip
+----------
+
+```
+kubectl get pod my-pod -o custom-columns=NAME:metadata.name,POD_IP:status.podIP
+```
+
+Get To Shell
+------------
+
+```
+kubectl exec -it my-pod -- sh
+```
+
 Apply a Manifest
 ----------------
 
