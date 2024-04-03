@@ -90,6 +90,13 @@ Get Pod Ip
 kubectl get pod my-pod -o custom-columns=NAME:metadata.name,POD_IP:status.podIP
 ```
 
+Run Shell Command
+-----------------
+
+```
+kubectl exec my-pod -- ls
+```
+
 Get To Shell
 ------------
 
