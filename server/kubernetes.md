@@ -142,6 +142,13 @@ Via a Url
 kubectl apply -f https://my-pod.at.mydomain.com/my-pod.yaml
 ```
 
+Get Info About A Service
+------------------------
+
+```
+kubectl get svc my-service
+```
+
 Books
 -----
 
