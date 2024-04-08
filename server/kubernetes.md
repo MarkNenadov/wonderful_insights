@@ -111,9 +111,16 @@ Copy Files
 kubectl cp my-pod:/src/folder/on/pod /file/on/my/filesystem
 ```
 
-Delete All Pods
+Delete Pods
 ---------------
 
+Delete a Pod
+
+```
+kubectl delete pod -l app=my-pod
+```
+
+Delete All Pods
 Note: This will not remove podst which were created by Deployments.
 
 ```
