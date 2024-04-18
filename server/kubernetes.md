@@ -149,25 +149,28 @@ Via a Url
 kubectl apply -f https://my-pod.at.mydomain.com/my-pod.yaml
 ```
 
+Services
+--------
+
 Get Info About a Service
-------------------------
 
 ```
 kubectl get svc my-service
 ```
+
+Delete a Service
+
+
+```
+kubectl delete svc my-service
+```
+
 
 Get Info About aa Endpoints
 ------------------------
 
 ```
 kubectl get endpoints my-endpoints
-```
-
-Delete a Service
------------------
-
-```
-kubectl delete svc my-service
 ```
 
 
