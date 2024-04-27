@@ -152,6 +152,20 @@ kubectl apply -f https://my-pod.at.mydomain.com/my-pod.yaml
 Services
 --------
 
+List All Services
+
+```
+kubectl get svc
+```
+
+
+List All Services In A Namespace
+
+```
+kubectl get svc --namespace default
+kubectl get svc --namespace kube-system
+```
+
 Get Info About a Service
 
 ```
