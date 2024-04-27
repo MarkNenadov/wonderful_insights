@@ -166,11 +166,18 @@ kubectl delete svc my-service
 ```
 
 
-Get Info About aa Endpoints
+Get Info About Endpoints
 ------------------------
 
+List All
 ```
-kubectl get endpoints my-endpoints
+hubectl get endpoints
+```
+
+Single endpoint
+
+```
+kubectl get endpoints my-endpoint
 ```
 
 
