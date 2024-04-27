@@ -179,6 +179,11 @@ Delete a Service
 kubectl delete svc my-service
 ```
 
+Delete All Serivces
+
+```
+kubectl delete svc --all
+```
 
 Get Info About Endpoints
 ------------------------
