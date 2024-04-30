@@ -114,6 +114,12 @@ Create a ConfigMap
 kubectl create configmap my-app-config --from-literal=my-app.baseUrl='http://localhost:8080/web'
 ```
 
+Output a ConfigMap value / Describe It
+```
+kubectl get cm my-app-config
+kubectl describe cm my-app-config
+```
+
 
 Set An Environment Variable from a ConfigMap:
 ```
