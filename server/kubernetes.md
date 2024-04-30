@@ -99,13 +99,30 @@ Print an Environment Varible
 kubectl exec my-pod -- printenv HOSTNAME
 ```
 
-Set An Environment Variable
-
-In your yaml file, under containers put:
+Set An Environment Variable. In your yaml file, under containers put:
 ```
 env:
 - name: BASE_URL
   value: "http://localhost:8080/web/"
+```
+
+ConfigMaps
+----------
+
+Create a ConfigMap
+```
+kubectl create configmap my-app-config --from-literal=my-app.baseUrl='http://localhost:8080/web'
+```
+
+
+Set An Environment Variable from a ConfigMap:
+```
+env:
+- name: BASE_URL
+  valueFrom:
+    configMapKeyRef:
+        name: my-app-config
+        key: my-app.baseUrl
 ```
 
 
