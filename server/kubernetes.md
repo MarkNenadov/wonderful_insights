@@ -99,6 +99,15 @@ Print an Environment Varible
 kubectl exec my-pod -- printenv HOSTNAME
 ```
 
+Set An Environment Variable
+
+In your yaml file, under containers put:
+```
+env:
+- name: BASE_URL
+  value: "http://localhost:8080/web/"
+```
+
 
 Run Shell Command
 -----------------
