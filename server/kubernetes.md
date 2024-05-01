@@ -131,6 +131,12 @@ env:
         key: my-app.baseUrl
 ```
 
+Load an environment file into a ConfigMap:
+
+```
+kubectl create configmap my-env-map --from-env-file=my.env
+```
+
 
 Run Shell Command
 -----------------
