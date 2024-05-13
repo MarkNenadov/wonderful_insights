@@ -247,6 +247,25 @@ Single endpoint
 kubectl get endpoints my-endpoint
 ```
 
+Secrets
+-------
+
+Create a secret
+
+```
+kubectl create secret generic my-secret-literal --from-literal=key=value
+```
+
+Describe a secret
+
+```
+kubectl describe secret my-secret-literal
+```
+
+Retreive a secret value
+```
+kubectl get secret my-secret-literal -o jsonpath='{.data.key}'|base64 -d
+```
 
 Books
 -----
