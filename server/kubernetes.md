@@ -42,12 +42,21 @@ Listen to port 9090 on local machine and forward it to 80 within the pod:
 kubectl port-forward pod/my-pod 9090:80
 ```
 
-Create Deployment
------------------
+Deployments
+-----------
+
+Create
 
 ```
 kubectl create deployment my-pod-2 --image=my-pod
 ```
+
+Delete All Deployments
+
+```
+kubectl delete deploy --all
+````
+
 
 Labels
 ------
@@ -174,13 +183,6 @@ Note: This will not remove podst which were created by Deployments.
 ```
 kubectl delete pods --all
 ```
-
-Delete All Deployments
-----------------------
-
-```
-kubectl delete deploy --all
-````
 
 Delete Resources In A Diretory
 ------------------------------
