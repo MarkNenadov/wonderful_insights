@@ -186,7 +186,7 @@ Delete Resources In A Diretory
 ------------------------------
 
 ```
-kubctl delete -f my-dir/
+kubectl delete -f my-dir/
 ```
 
 Apply a Manifest
