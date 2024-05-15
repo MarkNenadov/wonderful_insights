@@ -182,6 +182,13 @@ Delete All Deployments
 kubectl delete deploy --all
 ````
 
+Delete Resources In A Diretory
+------------------------------
+
+```
+kubctl delete -f my-dir/
+```
+
 Apply a Manifest
 ----------------
 
