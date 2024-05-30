@@ -57,6 +57,13 @@ Delete All Deployments
 kubectl delete deploy --all
 ````
 
+ReplicaSets
+-----------
+
+Show
+```
+kubectl get replicaset my-replicaset
+```
 
 Labels
 ------
