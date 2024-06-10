@@ -67,6 +67,11 @@ kubectl get replicaset my-replicaset
 
 ```
 
+Show Labels
+```
+kubectl get rs -l app=pi-web --show-labels
+```
+
 Labels
 ------
 
@@ -214,6 +219,11 @@ Via a Url
 ```
 kubectl apply -f https://my-pod.at.mydomain.com/my-pod.yaml
 ```
+
+Imperatively Scale a Controller
+-------------------------------
+
+kubectl scale --replicas=10 my-app
 
 Services
 --------
