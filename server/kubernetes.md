@@ -62,7 +62,9 @@ ReplicaSets
 
 Show
 ```
+kubectl get rs my-replicaset
 kubectl get replicaset my-replicaset
+
 ```
 
 Labels
