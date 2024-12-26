@@ -1,6 +1,28 @@
 Bash insights
 =============
 
+Jobs Jiu-jitsu
+--------------
+
+Move Job 123 into the foreground/background
+
+```
+fg $123
+bg $123
+```
+
+List jobs
+
+```
+jobs
+```
+
+Start a job in background and don't close when logged out/terminal closes
+
+```
+nohup ./myscript.sh &
+```
+
 Functions
 ---------
 
