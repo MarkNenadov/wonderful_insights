@@ -20,3 +20,5 @@ Books
 =====
 
 * [The Joy of Kotlin](https://www.goodreads.com/book/show/41968682-the-joy-of-kotlin?from_search=true&from_srp=true&qid=5TLufxlWCk&rank=8) (Manning Press) by Pierre-Yves Saumont
+* [Kotlin Design Patterns and Best Practices](https://www.goodreads.com/book/show/60221207-kotlin-design-patterns-and-best-practices) (Packt) by Alexey Soshin
+* [Kotlin in Action](https://www.goodreads.com/book/show/29242249-kotlin-in-action) (Manning Press) by Dmitry Jemerov
